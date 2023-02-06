@@ -38,8 +38,16 @@ export const RotatingLogo = ({ className, seed = 1 }) => {
   }, [seed])
   return (
     <div className={styles.container}>
-      <Logo fill="var(--text-color)" width="132px" />
-      <p className={styles.beta}>BETA</p>
+      <img
+        src="/kwh-white.png"
+        fill="var(--text-color)"
+        height="32px"
+        width="32px"
+      />
+      <p className={styles.beta}>
+        {' '}
+        fork <a href="https://kordac.qepri.xyz/1">Sergio Aguirrre</a>
+      </p>
     </div>
   )
 }

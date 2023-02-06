@@ -1,6 +1,17 @@
 // DEV SAMPLES
 export const sample_events = [
   {
+    title: 'qepri',
+    feed: 'qepri',
+    icon: '🧠 ',
+    link: 'https://qepri.xyz',
+    subtitle: 'Forever',
+    content: `Hello,
+this is a project for stylizing,
+my own ui for collecting cryptoart,
+hope you may find it fun,`,
+  },
+  {
     title: 'Ukraine',
     feed: 'ukraine',
     icon: '🇺🇦 ',

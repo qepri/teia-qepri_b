@@ -146,9 +146,9 @@ export const LICENSE_TYPES_OPTIONS = Object.keys(LICENSE_TYPES).map((k) => ({
 }))
 
 export const THEMES = {
+  kordac: 'kordac',
   dark: 'Dark',
   light: 'Light',
-  kawai: 'Kawai',
   aqua: 'Aqua',
   coffee: 'Coffee',
   midnight: 'Midnight',

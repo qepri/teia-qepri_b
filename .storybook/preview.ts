@@ -31,10 +31,11 @@ export const parameters = {
   // teia themes // keep for now
   // backgrounds: {
   //   values: [
+  //     { name: 'kordac', value: '#0000' },
   //     { name: 'light', value: '#ffffff' },
   //     { name: 'dark', value: '#111' },
   //     { name: 'aqua', value: '#6aadff' },
-  //     { name: 'kawai', value: '#ffbde6' },
+  //     { name: 'kordac', value: '#ffbde6' },
   //     { name: 'midnight', value: '#002633' },
   //     { name: 'coffee', value: '#170a06' },
   //   ],

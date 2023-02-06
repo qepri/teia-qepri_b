@@ -15,7 +15,7 @@ const users = [
 ]
 const user = users[0]
 
-const themes = ['light', 'dark', 'kawai', 'midnight', 'aqua', 'coffee']
+const themes = ['kordac', 'light', 'dark', 'midnight', 'aqua', 'coffee']
 const pages = ['', user, 'settings']
 const theme_duration = 1500
 
@@ -116,7 +116,7 @@ for (const path of pages) {
     // await page.locator(".react_select__input-container").click();
     // await page.getByText("Light", { exact: true }).click();
     // await page.locator(".react_select__input-container").click();
-    // await page.getByText("Kawai", { exact: true }).click();
+    // await page.getByText("kordac", { exact: true }).click();
     // await page.locator(".react_select__input-container").click();
     // await page.getByText("Aqua", { exact: true }).click();
     // await page.locator(".react_select__input-container").click();
