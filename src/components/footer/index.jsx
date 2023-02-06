@@ -55,6 +55,7 @@ export const Footer = ({ menu, pin }) => {
       <motion.footer {...transition()} className={classes_content}>
         <div className={styles.logo}>
           Teia DAO LLC.
+          <img src="/qepri.png" alt="" />
           {menu && (
             <Button onClick={() => setLogoSeed(Math.random() * 100)}>
               <RotatingLogo theme={theme} logos={logos} seed={logoSeed} />
